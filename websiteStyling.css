@@ -215,8 +215,10 @@ nav a:hover {
         z-index: auto; /* Remove z-index */
       }
     .under {
-        padding-top: 15em;
         background-color: #01161e;
+    }
+    #NH {
+        display: none;
     }
 }
   
@@ -282,3 +284,25 @@ nav a:hover {
     padding-top: 1em;
     padding-right: 1em;
 }
+
+@media (max-width: 480px) {
+    .menu {
+      display: none;
+    }
+  
+    .toggle-btn {
+      display: block;
+      background: none;
+      border: none;
+      font-size: 1.5em;
+      padding: 10px;
+    }
+  
+    .menu-expanded {
+      display: block;
+    }
+  
+    .menu-expanded li {
+      display: block;
+    }
+  }
