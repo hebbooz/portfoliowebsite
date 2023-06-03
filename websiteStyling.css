@@ -306,3 +306,14 @@ nav a:hover {
       display: block;
     }
   }
+
+#videoPlay {
+    background-color: transparent;
+    border: none;
+    color: #eff6e0;
+    padding: 0;
+    cursor: pointer;
+    outline: inherit;
+    padding-left: 1em;
+    padding-right: 1em;
+}
