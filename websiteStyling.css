@@ -205,7 +205,15 @@ nav a:hover {
 @media (max-width: 700px) {
     nav ul {
         flex-direction: column;
+        size: 50%;
+        
     }
+    .header {
+        position: relative; /* Remove fixed positioning */
+        top: auto; /* Remove top positioning */
+        width: auto; /* Remove fixed width */
+        z-index: auto; /* Remove z-index */
+      }
     .under {
         padding-top: 15em;
         background-color: #01161e;
