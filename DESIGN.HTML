@@ -6,74 +6,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="websiteStyling.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400&family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
+    <script src="slide.js" defer></script>
     <title>DESIGN</title>
 </head>
 <body>
     <nav class="header">
         <ul>
-            <a href="index.html" id="head">HOME</a>
-            <a href="AboutMe.HTML" id="head">ABOUT</a>
+            <a href="HOME.HTML" id="head">HOME</a>
             <a href="THIRDEYE.HTML" id="head">THIRDEYE</a>
             <a href="SHOOOOOTED.HTML" id="head">SHOOOOOTED</a>
-            <a href="BUSINESSES.HTML" id="head">BUSINESSES</a>
             <a href="DESIGN.HTML" id="head">DESIGN</a>
-            <a href="ThisSite.HTML" id="head">THIS WEBSITE</a>
-            
+            <a href="https://github.com/hebbooz" id="head">MY GITHUB</a>
         </ul>
     </nav>
     <div class="under"></div>
-        <div class="banner">
-            <h1>Design </h1>
-            <img src="SVG/LOGO.svg" id="NH">
+    <div class="gap"></div>
+
+    <div class="medium">
+        <p>i'm primarily self-taught in 
+            <span class="highlightyellow">product</span> & 
+            <span class="highlightyellow">graphic design</span>, proficient in the 
+            <span class="highlightteal">Adobe Creative Suite</span>, 
+            <span class="highlightteal">Figma</span> & 
+            <span class="highlightteal">Fusion360</span>.
+        </p>
+    </div>
+    <div class="medium" style="margin-top: -1em;">
+        <p style="text-align: right; font-weight:100; font-size: 100%; font-style: italic; padding-top: -1em; opacity: 0.7;">current interests lie in 
+            <span class="highlightyellow" style="opacity: 1;">UX design</span> & 
+            <span class="highlightyellow" style="opacity: 1;">visual communication.</span> <br>below are some of the design projects i've worked on <br>over the past few years.
+        </p>
+    </div>  
+    <div class="gap"></div>
+
+    <div class="beside">
+        <img src="Images/Thirdeye-Seat.JPG" style="height:50%; margin-left: 2em;">
+        <div class="ontop">
+            <video autoplay muted loop id="myVideoDesign">
+                    <source src="/Users/HeberdenN21/Personal Website/SVG/THIRDEYEAnimation.mov" type="video/mp4">
+            </video>
+            <div class="wrapper">
+                <img src="Images/Speaker1.jpg" alt="Biosound 1" style="height:150%">
+            </div>
+            <img src="Images/Speaker2.jpg" alt="Biosound 2">
         </div>
-        <p></p>
-        <p>I am primarily self-taught in product & graphic design. I am proficient in the Adobe Creative Suite & Fusion360. I have had experience with both CAD & CAM technologies. </p>
-        <p>Below is a display of some of my design projects from the past few years.</p>
-        <h2>My Work</h2>
-        <div id="gallery-container">
-            <div class="image-wrapper">
-                <div class="individual-image">
-                    <img src="Images/Movember Tiles New-01.jpg" alt="Tile1">
-                </div>
-                <div class="individual-image">
-                    <img src="Images/Movember Tiles New-04.jpg" alt="Tile4">
-                </div>
-                <div class="individual-image">
-                    <img src="SVG/Movember.jpg" alt="Movember Poster">
-                </div>
-            </div>
-            <div class="image-wrapper">
-                <div class="individual-image">
-                    <img src="Images/Movember Tiles New-02.jpg" alt="Tile2">
-                </div>
-                <div class="individual-image">
-                    <!-- video looping-->
-                    <video autoplay muted loop id="myVideoDesign">
-                        <source src="SVG/THIRDEYEAnimation.mov" type="video/mp4">       
-                </div>
-                <div class="individual-image">
-                    <img src="Images/Clock.JPG" alt="Clock">
-                </div>
-                <div class="individual-image">
-                    <img src="Images/Security Camera.jpg" alt="Security Camera">
-                </div>
-            </div>
-            <div class="image-wrapper">
-                <div class="individual-image">
-                    <img src="Images/Movember Tiles New-03.jpg" alt="Tile3">
-                </div>
-                <div class="individual-image">
-                    <img src="Images/Speaker1.jpg" alt="Biosound 1">
-                </div>
-                <div class="individual-image">
-                    <img src="Images/Speaker2.jpg" alt="Biosound 2">
-                </div>
-                <div class="individual-image">
-                    <img src="Images/Handlebar.jpg" alt="Handlebar Mount">
-                </div>
-                
-            </div>
+    </div>
+
+    <div class="gap"></div>
+    
+    <div class="beside" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: flex-start; padding: 0 1em;">
+
+        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1); width: 100%; max-width: 800px; height: 450px; margin-bottom: 1em;" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FO1KISBVKRdxYcMCpn8jhxw%2FEasyRead-Reading-Assistant%3Ftype%3Ddesign%26node-id%3D1%253A4%26mode%3Ddesign%26t%3DV6Z8qybsLIlk67dI-1" allowfullscreen></iframe>
+    
+        <img src="Images/EasyReadMockup.jpg" alt="EasyRead" style="width: 100%; max-width: 800px; height: auto; margin: 0 auto;">
+    </div>
+    
+    
+    
+    <div class="gap"></div>
+    <div class="slideshow right">
+        <div class="slide">
+            <img src="Images/Movember Tiles New-01.jpg" class="slide-image">
         </div>
+        <div class="slide">
+            <img src="Images/Movember Tiles New-02.jpg" class="slide-image">
+        </div>
+        <div class="slide">
+            <img src="Images/Movember Tiles New-03.jpg" class="slide-image">
+        </div>
+        <div class="slide">
+            <img src="Images/Movember Tiles New-04.jpg" class="slide-image">
+        </div>
+    </div>
+        <nav class="footer">
+            <ul>
+                <a href="mailto:info@example.com?subject=Inquiry&body=Hello%20there!">Email</a>
+                <a href="https://www.linkedin.com/in/nick-heberden-552968226/">LinkedIn</a>
+                <a class="teal-colour" href="https://www.instagram.com/shoooooted/">Photography Catalogue</a>
+            </ul>
+        </nav>
     
 </body>
 </html>
